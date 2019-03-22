@@ -1,0 +1,28 @@
+#container{
+	width: 100px;
+	height: 100px;
+	border:1px solid red;
+}
+.verde{
+	background: red;
+}
+.par{
+	background-color: blue;
+}
+.impar{
+	background-color: yellow;
+}
+.list{
+	list-style: decimal;
+}
+.last{
+	background-color: violet;
+}
+.cerc{
+	background-color: black;
+	width: 100px;
+	height: 100px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
