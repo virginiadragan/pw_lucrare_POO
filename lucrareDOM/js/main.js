@@ -17,7 +17,6 @@ window.onload = function(){
 		x.value = y.value;
 		y.value = aux;
 	}
-
 	container.onmousemove = function(){
 		container.classList.add('verde');
 	}
@@ -37,7 +36,6 @@ function addParagraph(){
 		else
 			newP.classList.add('impar');
 		document.getElementById('paragraph').appendChild(newP);
-
 	}
 }
 function createList(){
@@ -114,5 +112,4 @@ function afisNumber(){
 		clearInterval(timerId);
 	}
 	setTimeout(stop, 10000);
-
 }
