@@ -106,6 +106,7 @@ function afisNumber(){
 	var timerId = setInterval(function() {
 	  	let newL = document.createElement("li");
 		newL.textContent = numbers[i];
+		newL.setAttribute('title',numbers[i]*numbers[i]);
 		document.getElementById('numbers').appendChild(newL);
 		i++;
 	}, 1000);
